@@ -1,0 +1,50 @@
+/*cajas*/
+#box_1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+  display: block;
+}
+
+#box_2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+  display: block;
+}
+
+#box_3 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+  display: block;
+}
+
+#box_4 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+  display: block;
+}
+
+/* caja naranja pequeña en medio de cada una de las cajas grandes*/
+.small-box {
+  width: 40px;
+  height: 40px;
+	position: absolute;
+  top: 80px;
+	left: 80px;
+  background: #F95B34;
+}
